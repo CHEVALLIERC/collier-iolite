@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Collier pièce unique en argent 925 et iolite rare. Motif graine de vie. Pierre de vision pour clarté mentale et méditation. Chaîne ajustable 40-45 cm.">
+    <title>Collier Iolite Argent 925 - Graine de Vie | Pièce Unique</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #4a5568;
+            margin-bottom: 10px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            color: #718096;
+            font-style: italic;
+        }
+
+        .badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            margin-top: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .image-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-image {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 400px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .thumbnail-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .thumbnail {
+            width: 100%;
+            height: 120px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.8em;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .thumbnail:hover {
+            transform: scale(1.05);
+        }
+
+        .info-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            color: #667eea;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .feature-list {
+            list-style: none;
+            margin: 20px 0;
+        }
+
+        .feature-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            align-items: center;
+        }
+
+        .feature-list li:before {
+            content: "✦";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 15px;
+            font-size: 1.2em;
+        }
+
+        .virtues-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .virtue-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e2e8f0 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
+
+        .virtue-card h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .specs {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .spec-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .spec-item {
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+
+        .spec-label {
+            font-weight: bold;
+            color: #4a5568;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .spec-value {
+            color: #718096;
+        }
+
+        .cta-section {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #718096;
+            margin-top: 40px;
+        }
+
+        .footer-link {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .spec-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .thumbnail-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Collier Iolite Argent 925</h1>
+            <p class="subtitle">Graine de Vie - Pierre de Vision</p>
+            <span class="badge">✨ PIÈCE UNIQUE ✨</span>
+        </header>
+
+        <div class="main-content">
+            <div class="image-section">
+                <div class="image-placeholder">
+                    Image principale du collier
+                </div>
+                <div class="thumbnail-grid">
+                    <div class="thumbnail">Vue 1</div>
+                    <div class="thumbnail">Vue 2</div>
+                    <div class="thumbnail">Détail</div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h2>Description</h2>
+                <p>Découvrez ce magnifique <strong>collier en argent 925</strong> orné d'une <strong>iolite naturelle</strong>, une pierre rare et précieuse, en forme de goutte. <strong>Pièce unique</strong>, cette création élégante allie la pureté de l'argent sterling au charme mystérieux de l'iolite, pierre aux reflets bleu violacé profonds.</p>
+                
+                <p>Le pendentif, finement travaillé avec le motif de la <strong>graine de vie</strong>, met en valeur la pierre centrale et crée un bijou chargé de symbolisme. La graine de vie représente les débuts, la création et le potentiel infini.</p>
+
+                <h3>Points Clés</h3>
+                <ul class="feature-list">
+                    <li>Pierre rare d'iolite naturelle</li>
+                    <li>Argent 925 (sterling)</li>
+                    <li>Motif graine de vie ajouré</li>
+                    <li>Chaîne ajustable 40-45 cm</li>
+                    <li>Pièce unique exclusive</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="virtues-section">
+            <h2>Les Vertus de l'Iolite</h2>
+            <p style="text-align: center; margin-bottom: 30px;">L'<strong>iolite</strong>, également appelée "pierre de vision", est une pierre rare et précieuse reconnue en lithothérapie pour ses nombreux bienfaits :</p>
+
+            <div class="virtue-card">
+                <h4>✦ Clarté Mentale</h4>
+                <p>Favorise la concentration, l'intuition et aide à prendre des décisions éclairées</p>
+            </div>
+
+            <div class="virtue-card">
+                <h4>✦ Apaisement Émotionnel</h4>
+                <p>Calme le mental, réduit le stress et apaise les tensions</p>
+            </div>
+
+            <div class="virtue-card">
+                <h4>✦ Vision Intérieure</h4>
+                <p>Stimule le troisième œil, favorise la méditation et l'introspection</p>
+            </div>
+
+            <div class="virtue-card">
+                <h4>✦ Créativité</h4>
+                <p>Encourage l'expression créative et l'imagination</p>
+            </div>
+
+            <div class="virtue-card">
+                <h4>✦ Équilibre</h4>
+                <p>Aide à harmoniser les énergies du corps et de l'esprit</p>
+            </div>
+        </div>
+
+        <div class="specs">
+            <h2>Caractéristiques Techniques</h2>
+            <div class="spec-grid">
+                <div class="spec-item">
+                    <span class="spec-label">Pierre</span>
+                    <span class="spec-value">Iolite naturelle (forme goutte)</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Métal</span>
+                    <span class="spec-value">Argent 925 (sterling)</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Pendentif</span>
+                    <span class="spec-value">Motif graine de vie ajouré</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Chaîne</span>
+                    <span class="spec-value">Ajustable de 40 à 45 cm</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Style</span>
+                    <span class="spec-value">Élégant et intemporel</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">Disponibilité</span>
+                    <span class="spec-value">Pièce unique exclusive</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="specs">
+            <h2>Pourquoi Choisir ce Collier ?</h2>
+            <p>Ce collier en argent 925 et iolite est parfait pour celles et ceux qui recherchent un bijou à la fois esthétique et porteur de sens. L'iolite, pierre rare aux reflets changeants, apporte une touche de mystère et d'élégance à votre tenue tout en vous accompagnant dans votre quête de clarté mentale et d'équilibre intérieur.</p>
+            
+            <p>Le motif de la graine de vie symbolise les nouveaux départs et le potentiel créatif, en parfaite harmonie avec les propriétés de l'iolite. <strong>Cette pièce unique</strong> vous assure de posséder un bijou exclusif.</p>
+
+            <h3>Pour Qui ?</h3>
+            <p>Idéal pour les personnes en quête de clarté mentale, celles qui méditent, les créatifs cherchant l'inspiration, ou simplement pour toute personne appréciant les bijoux raffinés et rares en pierres naturelles.</p>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="color: white; border: none;">Acquérir cette Pièce Unique</h2>
+            <p style="font-size: 1.2em; margin: 20px 0;">Prix : 68,00 €</p>
+            <a href="https://www.braceletsbycecile.com/products/collier-iolite-argent-925-graine-vie-piece-unique" class="cta-button">Voir sur la Boutique</a>
+            <p style="margin-top: 30px; font-size: 0.9em; opacity: 0.9;">Livraison suivie offerte à partir de 50€ d'achats</p>
+        </div>
+
+        <footer>
+            <p><strong>Bracelets By Cécile</strong></p>
+            <p>
+                <a href="https://www.braceletsbycecile.com/" class="footer-link">Boutique</a> |
+                <a href="https://www.braceletsbycecile.com/pages/comment-entretenir-ses-bijoux" class="footer-link">Entretien</a> |
+                <a href="https://www.braceletsbycecile.com/pages/contact" class="footer-link">Contact</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 0.9em;">Note : Les vertus des pierres sont issues de la lithothérapie et constituent un soutien au bien-être. Elles ne remplacent pas un avis médical.</p>
+        </footer>
+    </div>
+</body>
+</html>
